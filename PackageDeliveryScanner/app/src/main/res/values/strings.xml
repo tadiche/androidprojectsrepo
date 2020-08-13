@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SriBarcodeScanner</string>
+    <string name="take_a_delivery_picture">Take a delivery picture</string>
+    <string name="scanresultsfragment">ScanResults</string>
+    <string name="upload">Upload</string>
+</resources>
