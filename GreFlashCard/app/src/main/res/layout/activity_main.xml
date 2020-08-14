@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="569dp"
+        android:layout_marginBottom="122dp"
+        android:text="Swipe Left to right and Right to Left to detect Swipe Gesture"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<!--    android:id="@+id/resultTextView"
+    android:padding="12dp"
+    android:layout_marginTop="20dp"
+    android:textColor="#000"
+    android:hint="RESULT"
+    android:textSize="15sp"
+    android:background="#F2F2F2"
+    android:layout_width="match_parent"
+    android:layout_height="350dp" />-->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="308dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="311dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
